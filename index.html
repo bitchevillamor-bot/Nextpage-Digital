@@ -18,10 +18,10 @@
         <span class="logo-mark" aria-hidden="true">N</span>
         <span>NextPage <strong>Digital</strong></span>
       </a>
-      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">
         <span></span><span></span><span></span>
       </button>
-      <nav class="main-nav" aria-label="Main navigation">
+      <nav class="main-nav" id="main-navigation" aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#pricing">Pricing</a>
@@ -113,9 +113,9 @@
       <div class="container">
         <div class="section-heading centered reveal"><p class="eyebrow"><span></span> Simple pricing</p><h2>Start small. <em>Grow confidently.</em></h2><p>Clear starting prices with no surprises.</p></div>
         <div class="pricing-grid">
-          <article class="price-card reveal"><p class="plan">STARTER WEBSITE</p><div class="price"><span>₱</span>999</div><p>For a simple, polished online presence.</p><ul><li>Single-page website</li><li>Mobile-friendly design</li><li>Contact section</li><li>Basic social links</li></ul><a class="button button-secondary" href="#contact">Choose Starter</a></article>
-          <article class="price-card popular reveal"><div class="popular-label">MOST POPULAR</div><p class="plan">BUSINESS WEBSITE</p><div class="price"><span>₱</span>1,999</div><p>For businesses ready to stand out online.</p><ul><li>Everything in Starter</li><li>More custom sections</li><li>Photo gallery or menu</li><li>Priority revisions</li></ul><a class="button button-primary" href="#contact">Choose Business <span>→</span></a></article>
-          <article class="price-card reveal"><p class="plan">CUSTOM WEBSITE</p><div class="price custom">Let's talk</div><p>For a website shaped around unique needs.</p><ul><li>Custom page structure</li><li>Unique design direction</li><li>Special features</li><li>Project-based quote</li></ul><a class="button button-secondary" href="#contact">Get a Quote</a></article>
+          <article class="price-card reveal"><div class="plan-heading"><span class="plan-icon">01</span><p class="plan">STARTER WEBSITE</p></div><div class="price"><span>₱</span>999<small> starting</small></div><p>For a simple, polished online presence.</p><ul><li>Single-page website</li><li>Mobile-friendly design</li><li>Contact section</li><li>Basic social links</li><li>1 revision round</li></ul><p class="delivery">Typical delivery: 3–5 days</p><a class="button button-secondary" href="#contact">Choose Starter</a></article>
+          <article class="price-card popular reveal"><div class="popular-label">MOST POPULAR</div><div class="plan-heading"><span class="plan-icon">02</span><p class="plan">BUSINESS WEBSITE</p></div><div class="price"><span>₱</span>1,999<small> starting</small></div><p>For businesses ready to stand out online.</p><ul><li>Everything in Starter</li><li>More custom sections</li><li>Photo gallery or menu</li><li>Inquiry form setup</li><li>2 revision rounds</li></ul><p class="delivery">Typical delivery: 5–7 days</p><a class="button button-primary" href="#contact">Choose Business <span>→</span></a></article>
+          <article class="price-card reveal"><div class="plan-heading"><span class="plan-icon">03</span><p class="plan">CUSTOM WEBSITE</p></div><div class="price custom">Let's talk</div><p>For a website shaped around unique needs.</p><ul><li>Custom page structure</li><li>Unique design direction</li><li>Special features</li><li>Content guidance</li><li>Project-based quote</li></ul><p class="delivery">Timeline based on scope</p><a class="button button-secondary" href="#contact">Get a Quote</a></article>
         </div>
         <p class="price-note">* Prices shown are sample introductory rates and may be adjusted depending on your project's scope and requirements.</p>
       </div>
@@ -126,9 +126,9 @@
       <div class="container">
         <div class="portfolio-head reveal"><div class="section-heading"><p class="eyebrow"><span></span> Selected work</p><h2>Ideas brought to <em>life.</em></h2></div><p>A glimpse of the clean, purposeful websites we can create for businesses like yours.</p></div>
         <div class="portfolio-grid">
-          <article class="project reveal"><div class="project-preview food"><div class="project-browser"><span>Al Dente</span><h3>PASTA MADE<br>WITH PASSION.</h3><small>View menu →</small></div></div><div class="project-info"><div><p>FOOD & RESTAURANT</p><h3>Food Business Website</h3></div><span>↗</span></div></article>
-          <article class="project reveal"><div class="project-preview barber"><div class="project-browser"><span>THE BARBER.</span><h3>SHARP CUTS.<br>CLASSIC STYLE.</h3><small>Book a cut →</small></div></div><div class="project-info"><div><p>LOCAL SERVICE</p><h3>Barbershop Website</h3></div><span>↗</span></div></article>
-          <article class="project reveal"><div class="project-preview shop"><div class="shop-nav">mori <span>○　▢</span></div><div class="shop-products"><i></i><i></i><i></i></div><b>Everyday, made better.</b></div><div class="project-info"><div><p>E-COMMERCE</p><h3>Online Shop Website</h3></div><span>↗</span></div></article>
+          <article class="project reveal"><div class="project-preview food"><div class="demo-window"><div class="demo-bar"><i></i><i></i><i></i><span>aldente.ph</span></div><div class="food-screen"><nav><b>Al Dente</b><span>Menu&nbsp;&nbsp; About&nbsp;&nbsp; Contact</span></nav><div><small>FRESH FROM THE KITCHEN</small><h3>PASTA MADE<br>WITH PASSION.</h3><button>Explore our menu →</button></div><p class="dish" aria-hidden="true">🍝</p></div></div></div><div class="project-info"><div><p>FOOD & RESTAURANT</p><h3>Al Dente Kitchen</h3><small>Menu · Story · Reservations</small></div><span>↗</span></div></article>
+          <article class="project reveal"><div class="project-preview barber"><div class="demo-window"><div class="demo-bar dark"><i></i><i></i><i></i><span>northsidecuts.ph</span></div><div class="barber-screen"><nav><b>NORTHSIDE.</b><span>Services&nbsp;&nbsp; Team</span></nav><div class="barber-copy"><small>TRADITION MEETS STYLE</small><h3>LOOK SHARP.<br>FEEL YOUR BEST.</h3><button>Book your chair →</button></div><div class="barber-lines" aria-hidden="true"></div></div></div></div><div class="project-info"><div><p>LOCAL SERVICE</p><h3>Northside Barbers</h3><small>Services · Booking · Location</small></div><span>↗</span></div></article>
+          <article class="project reveal"><div class="project-preview shop"><div class="demo-window"><div class="demo-bar shop-bar"><i></i><i></i><i></i><span>mori-shop.ph</span></div><div class="shop-screen"><nav><b>mori.</b><span>Shop&nbsp;&nbsp; Journal&nbsp;&nbsp; ♡&nbsp; Bag (0)</span></nav><div class="shop-title"><small>THE DAILY EDIT</small><strong>Simple pieces,<br>made to last.</strong></div><div class="shop-products"><i><span>Everyday Tote</span></i><i><span>Linen Set</span></i><i><span>Desk Tray</span></i></div></div></div></div><div class="project-info"><div><p>E-COMMERCE</p><h3>Mori Everyday Goods</h3><small>Catalog · Product page · Cart</small></div><span>↗</span></div></article>
         </div>
       </div>
     </section>
@@ -145,6 +145,11 @@
       </div>
     </section>
   </main>
+
+  <a class="floating-contact" href="https://m.me/yourusername" target="_blank" rel="noopener" aria-label="Chat with NextPage Digital on Messenger">
+    <span class="messenger-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2C6.3 2 2 6.2 2 11.7c0 2.9 1.2 5.4 3.2 7.1V22l3-1.7c1.2.4 2.4.7 3.8.7 5.7 0 10-4.2 10-9.7S17.7 2 12 2Zm1 13-2.5-2.7-4.8 2.7 5.3-5.6 2.6 2.7 4.7-2.7L13 15Z"/></svg></span>
+    <span class="floating-label"><strong>Questions?</strong><small>Chat with us</small></span>
+  </a>
 
   <footer><div class="container footer-inner"><a class="logo" href="#top"><span class="logo-mark">N</span><span>NextPage <strong>Digital</strong></span></a><p>© <span id="year"></span> NextPage Digital. Built for growing businesses.</p><a href="#top">Back to top ↑</a></div></footer>
   <script src="script.js"></script>
