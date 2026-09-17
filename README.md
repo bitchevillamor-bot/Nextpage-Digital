@@ -19,11 +19,12 @@ Open `index.html` in a text editor such as Visual Studio Code or Notepad.
 - **Business name:** search for `NextPage Digital` and replace it with the new
   name. The name appears in the header, page title, contact area, and footer.
 - **Prices:** search for `₱999` and `₱1,999`, then type the new prices.
-- **Contact details:** search for `+63 900 000 0000` and
-  `hello@nextpagedigital.example`. Update both the visible text and the values
-  inside `tel:` and `mailto:` links.
-- **Facebook Messenger:** replace `https://m.me/yourusername` with the correct
-  Messenger link.
+- **Contact details:** the phone, email, Telegram, Viber, and Facebook links are
+  grouped in the contact section near the bottom of `index.html`. Update both
+  the visible text and the corresponding `tel:`, `mailto:`, `https:`, or
+  `viber:` link when any contact detail changes.
+- **Floating chat links:** the fixed Facebook/Messenger and Telegram shortcuts
+  are immediately after the contact section in `index.html`.
 - **Pictures:** the portfolio currently uses CSS-made demo previews, so it
   works without image files. To use a real image, add the image to this folder
   and replace a preview `<div>` with `<img src="your-photo.jpg" alt="A short
